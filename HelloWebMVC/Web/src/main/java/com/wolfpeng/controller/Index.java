@@ -4,6 +4,7 @@ import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
 
+import com.wolfpeng.client.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -23,7 +24,9 @@ public class Index {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(HttpServletRequest request) {
         logger.debug("handle index request");
-        request.setAttribute("date", new Date());
+        Test t = new Test();
+        t.test();
+        request.setAttribute("date", t.test());
         return "index";
     }
 }
