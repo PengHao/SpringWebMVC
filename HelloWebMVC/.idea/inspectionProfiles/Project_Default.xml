@@ -40,14 +40,26 @@
     <inspection_tool class="AlibabaAvoidCommentBehindStatement" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
+    <inspection_tool class="AlibabaAvoidComplexCondition" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaAvoidConcurrentCompetitionRandom" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
+    </inspection_tool>
     <inspection_tool class="AlibabaAvoidManuallyCreateThread" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaAvoidMissUseOfMathRandom" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaAvoidNewDateGetTime" enabled="true" level="BLOCKER" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="BLOCKER" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaAvoidPatternCompileInMethod" enabled="true" level="BLOCKER" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="BLOCKER" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaAvoidReturnInFinally" enabled="true" level="CRITICAL" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaAvoidStartWithDollarAndUnderLineNaming" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
@@ -70,6 +82,9 @@
     <inspection_tool class="AlibabaClassNamingShouldBeCamel" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
+    <inspection_tool class="AlibabaCollectionInitShouldAssignCapacity" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
+    </inspection_tool>
     <inspection_tool class="AlibabaCommentsMustBeJavadocFormat" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
@@ -78,6 +93,9 @@
     </inspection_tool>
     <inspection_tool class="AlibabaConstantFieldShouldBeUpperCase" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaCountDownShouldInFinally" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaDontModifyInForeachCircle" enabled="true" level="BLOCKER" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="BLOCKER" enabled="true" />
@@ -88,8 +106,14 @@
     <inspection_tool class="AlibabaExceptionClassShouldEndWithException" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
     </inspection_tool>
+    <inspection_tool class="AlibabaIbatisMethodQueryForList" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
+    </inspection_tool>
     <inspection_tool class="AlibabaLowerCamelCaseVariableNaming" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaMethodReturnWrapperType" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaPackageNaming" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
@@ -103,8 +127,14 @@
     <inspection_tool class="AlibabaPojoNoDefaultValue" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
+    <inspection_tool class="AlibabaRemoveCommentedCode" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
+    </inspection_tool>
     <inspection_tool class="AlibabaServiceOrDaoClassShouldEndWithImpl" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaStringConcat" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaSwitchStatement" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
@@ -112,11 +142,17 @@
     <inspection_tool class="AlibabaTestClassShouldEndWithTestNaming" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
+    <inspection_tool class="AlibabaThreadLocalShouldRemove" enabled="true" level="CRITICAL" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
     <inspection_tool class="AlibabaThreadPoolCreation" enabled="true" level="BLOCKER" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="BLOCKER" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaThreadShouldSetName" enabled="true" level="CRITICAL" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="CRITICAL" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="AlibabaTransactionMustHaveRollback" enabled="true" level="MAJOR" enabled_by_default="false">
+      <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="AlibabaUndefineMagicConstant" enabled="true" level="MAJOR" enabled_by_default="false">
       <scope name="AlibabaCodeAnalysis" level="MAJOR" enabled="true" />

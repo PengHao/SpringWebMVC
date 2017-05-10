@@ -29,6 +29,7 @@
     <mvc:annotation-driven/>
 
     <context:component-scan base-package="com.wolfpeng"/>
+    <context:component-scan base-package="com.motherchildren"/>
 
     <!--<context:component-scan base-package="com.taobao.tae.engine"/>-->
 
@@ -38,4 +39,5 @@
         <property name="prefix" value="/WEB-INF/statics/js/" />
         <property name="suffix" value=".jsp" />
     </bean>
+
 </beans>
