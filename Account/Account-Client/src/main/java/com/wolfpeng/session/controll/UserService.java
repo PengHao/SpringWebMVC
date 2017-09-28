@@ -10,5 +10,4 @@ public interface UserService {
     SessionDO login(String userName, String password);
     SessionDO regist(String userName, String password);
     boolean logout(SessionDO sessionDO);
-
 }
