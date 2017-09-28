@@ -2,7 +2,7 @@ package com.wolfpeng.session.moudle;
 
 /**
  * Created by penghao on 2017/9/17.
- * Copyright ? 2017Äê Alibaba. All rights reserved.
+ * Copyright ? 2017Äê wolfpeng. All rights reserved.
  */
 
 public class UserDO {

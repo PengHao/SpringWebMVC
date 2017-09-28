@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * Created by penghao on 2017/9/15.
- * Copyright ? 2017Äê Alibaba. All rights reserved.
+ * Copyright ? 2017Äê wolfpeng. All rights reserved.
  */
 public class SessionDO {
     Long id;
