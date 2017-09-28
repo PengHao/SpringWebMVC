@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWebMVC.iml" filepath="$PROJECT_DIR$/HelloWebMVC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Account.iml" filepath="$PROJECT_DIR$/Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Account-Client/Account-Client.iml" filepath="$PROJECT_DIR$/Account-Client/Account-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Account-Session/Account-Session.iml" filepath="$PROJECT_DIR$/Account-Session/Account-Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Account-Web/Web.iml" filepath="$PROJECT_DIR$/Account-Web/Web.iml" />
     </modules>
   </component>
 </project>

@@ -10,8 +10,9 @@
 
 
   <modules>
-    <module>Web</module>
-    <module>Client</module>
+    <module>Account-Web</module>
+    <module>Account-Session</module>
+    <module>Account-Client</module>
   </modules>
 
   <dependencies>

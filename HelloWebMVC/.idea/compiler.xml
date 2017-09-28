@@ -14,7 +14,7 @@
       <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
+      <profile default="true" name="Default" enabled="true">
         <processorPath useClasspath="true" />
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
@@ -22,13 +22,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Account-Client" />
+        <module name="Account-Session" />
+        <module name="Account-Web" />
         <module name="Client" />
+        <module name="Session" />
         <module name="Web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Account" target="1.5" />
+      <module name="Account-Client" target="1.5" />
+      <module name="Account-Session" target="1.5" />
+      <module name="Account-Web" target="1.5" />
       <module name="Client" target="1.5" />
       <module name="HelloWebMVC" target="1.5" />
+      <module name="Session" target="1.5" />
       <module name="Web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
